@@ -13,3 +13,22 @@ image: /assets/img/SkillmioDNS-ilustration.png
 
 ## Skillmio DNS
 Skillmio DNS é um serviço gratuito de resolução de DNS com foco em segurança e privacidade, que filtra e bloqueia domínios maliciosos, de phishing e conteúdos indesejados antes de a ligação ser estabelecida, garantindo uma navegação mais segura e eficiente, sem necessidade de instalar software nos dispositivos.
+
+Aqui vai a versão ajustada, mais clara e organizada para tutorial:
+
+### Dispositivos Android
+
+1. Vá para **Definições** > **Ligações** > **Mais definições de ligação**
+2. Toque em **DNS privado**
+3. Selecione **Nome de anfitrião do fornecedor DNS privado**
+4. Introduza: `dns.skillmio.net`
+5. Toque em **Guardar**
+⏳ Aguarde alguns segundos — se o nome aparecer, significa que está tudo configurado corretamente.
+
+Aqui está a versão formatada corretamente para documentação (ex: Markdown):
+
+> ![warning]
+> ⚠️ **Como Desativar**
+> 
+> Siga até ao passo 3 e, em vez de selecionar **Nome de anfitrião do fornecedor DNS privado**, escolha **Desativado**.
+
