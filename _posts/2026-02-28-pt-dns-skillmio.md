@@ -35,6 +35,8 @@ Skillmio DNS é um serviço gratuito de resolução de DNS com foco em seguranç
 > [!INFO]
 > This is a note example.
 
+> This is an info note or warning.
+{:.prompt-info}
 
 ### Windows 10/11
 1. Abra **Painel de Controlo** > **Rede e Internet** > **Centro de Rede e Partilha**
