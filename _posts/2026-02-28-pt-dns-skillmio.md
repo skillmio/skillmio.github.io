@@ -34,3 +34,10 @@ Skillmio DNS é um serviço gratuito de resolução de DNS com foco em seguranç
 > Siga até ao passo 3 e, em vez de selecionar **Nome de anfitrião do fornecedor DNS privado**, escolha **Desativado**.
 > {: .prompt-info }
 
+### Windows 10/11
+1. Abra **Painel de Controlo** > **Rede e Internet** > **Centro de Rede e Partilha**
+2. Clique em **Alterar definições do adaptador**
+3. Clique com o botão direito na conexão ativa > **Propriedades**
+4. Selecione **Protocolo Internet Versão 4 (TCP/IPv4)** > **Propriedades**
+5. Marque **Usar os seguintes endereços de servidor DNS** e introduza: `102.213.34.98` e `196.61.76.76`
+6. Clique em **OK** e reinicie a conexão  
