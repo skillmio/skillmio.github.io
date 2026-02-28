@@ -1,7 +1,7 @@
 ---
 title: Como usar o DNS Público da Skillmio
 date: 2026-02-28 05:05:00 +0100
-categories: [Tutorial-pt, DNS]
+categories: [Tutorial-pt]
 tags: [tutorial-pt, dns]     # TAG names should always be lowercase
 author: msaraiva
 pin: true
