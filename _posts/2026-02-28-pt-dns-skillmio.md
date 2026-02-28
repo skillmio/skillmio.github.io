@@ -23,12 +23,13 @@ Aqui vai a versão ajustada, mais clara e organizada para tutorial:
 3. Selecione **Nome de anfitrião do fornecedor DNS privado**
 4. Introduza: `dns.skillmio.net`
 5. Toque em **Guardar**
+   
 ⏳ Aguarde alguns segundos — se o nome aparecer, significa que está tudo configurado corretamente.
 
 Aqui está a versão formatada corretamente para documentação (ex: Markdown):
 
-> ![warning]
-> ⚠️ **Como Desativar**
+> [!info]
+> **Como Desativar**
 > 
 > Siga até ao passo 3 e, em vez de selecionar **Nome de anfitrião do fornecedor DNS privado**, escolha **Desativado**.
 
