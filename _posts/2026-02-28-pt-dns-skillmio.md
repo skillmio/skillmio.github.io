@@ -5,7 +5,10 @@ categories: [Tutorial-pt, DNS]
 tags: [tutorial-pt, dns]     # TAG names should always be lowercase
 author: msaraiva
 pin: true
+description: Este tutorial explica como utilizar os serviços gratuitos da Skillmio DNS para garantir uma navegação mais segura e eficiente
 ---
 
-Este tutorial explica como usar os serviços de DNS Publico da Skillmio.
 
+
+## Skillmio DNS
+Skillmio DNS é um serviço gratuito de resolução de DNS com foco em segurança e privacidade, que filtra e bloqueia domínios maliciosos, de phishing e conteúdos indesejados antes de a ligação ser estabelecida, garantindo uma navegação mais segura e eficiente, sem necessidade de instalar software nos dispositivos.
