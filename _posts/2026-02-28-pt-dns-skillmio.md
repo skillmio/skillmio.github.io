@@ -32,6 +32,8 @@ Skillmio DNS é um serviço gratuito de resolução de DNS com foco em seguranç
 > [!TIP]
 > Para desactivar siga até ao passo 3 e, em vez de selecionar **Nome de anfitrião do fornecedor DNS privado**, escolha **Desativado**.
 
+> [!INFO]
+> This is a note example.
 
 
 ### Windows 10/11
