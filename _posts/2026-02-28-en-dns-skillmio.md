@@ -1,7 +1,7 @@
 ---
 title: How to Use Skillmio Public DNS
 date: 2026-02-28 05:05:00 +0100
-categories: [Tutorial-en, DNS]
+categories: [Tutorial-en]
 tags: [tutorial-en, dns]     # TAG names should always be lowercase
 author: msaraiva
 pin: true
