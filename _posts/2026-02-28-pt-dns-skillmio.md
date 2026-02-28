@@ -38,21 +38,13 @@ Skillmio DNS é um serviço gratuito de resolução de DNS com foco em seguranç
 
 1. Baixe e guarde o ficheiro de perfil:
    [https://raw.githubusercontent.com/skillmio/CoSec/master/dns-skillmio-unsig.mobileconfig](https://raw.githubusercontent.com/skillmio/CoSec/master/dns-skillmio-unsig.mobileconfig)
-
 2. Vá até ao local onde guardou o ficheiro `dns-skillmio-unsig.mobileconfig`
-
 3. Toque no ficheiro — ele será automaticamente reconhecido como um **perfil de configuração**
-
 4. Surgirá a mensagem **“Perfil pronto a instalar”**
-
 5. Vá para **Definições**
-
 6. Toque em **Perfil Transferido** (no topo das definições)
-
 7. Selecione **Instalar**
-
 8. Introduza o código de desbloqueio do dispositivo, se solicitado
-
 9. Confirme em **Instalar** novamente
 
 Após a instalação, o Skillmio DNS ficará ativo no dispositivo.
