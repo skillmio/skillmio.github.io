@@ -8,5 +8,5 @@ author: msaraiva
 # authors: [alice, bob, carla] # list of authors
 ---
 
-
+Este tutorial explica como usar os serviços de DNS Publico da Skillmio.
 
