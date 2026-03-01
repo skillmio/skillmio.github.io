@@ -97,4 +97,11 @@ sudo systemctl restart named
 ```
 Após reiniciar o serviço, o seu servidor DNS passará a utilizar a filtragem baseada na lista `blocked_domains.txt` através dos servidores Skillmio.
 
+## Como usar a banned_ips.txt?
+
+A lista `banned_ips.txt` pode ser integrada diretamente na firewall da sua infraestrutura para bloquear endereços IP maliciosos ao nível da rede.
+
+Abaixo seguem exemplos para **fail2ban** e **firewalld**.
+
+
 
