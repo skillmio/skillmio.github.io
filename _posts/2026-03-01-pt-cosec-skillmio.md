@@ -9,6 +9,8 @@ description: Aprenda a utilizar as listas blocked_domains e banned_ips da CoSec 
 image: /assets/img/SkillmioCoSec-visual.png
 ---
 
+github repo: https://github.com/skillmio/CoSec
+
 ## O que é uma lista de bloqueio?
 
 Uma lista de bloqueio (blocklist) é um conjunto de domínios ou endereços IP identificados como maliciosos, suspeitos ou indesejados. Estas listas são utilizadas para impedir comunicações com ameaças conhecidas, reduzindo riscos de malware, phishing, botnets e publicidade abusiva.
