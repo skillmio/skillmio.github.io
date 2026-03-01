@@ -5,7 +5,7 @@ categories: [Tutorial-en]
 tags: [tutorial-en, dns]     # TAG names should always be lowercase
 author: msaraiva
 description: This tutorial explains how to use Skillmio DNS free services to ensure safer and more efficient browsing
-image: /assets/img/SkillmioDNS-visual(small).png
+image: /assets/img/SkillmioDNS-visual.png
 ---
 
 ## Skillmio DNS
