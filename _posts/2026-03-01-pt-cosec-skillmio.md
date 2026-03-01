@@ -18,7 +18,7 @@ Uma lista de bloqueio (blocklist) é um conjunto de domínios ou endereços IP i
 - **blocked_domains.txt** – Lista de domínios maliciosos ou indesejados que devem ser bloqueados ao nível do DNS.
 - **banned_ips.txt** – Lista de endereços IP associados a atividades suspeitas ou maliciosas, recomendados para bloqueio ao nível de firewall ou sistemas de filtragem.
 
-Estas listas são mantidas no âmbito da iniciativa **CoSec**, com foco em reforçar a segurança digital.
+Estas listas são mantidas no âmbito da iniciativa **CoSec**, desenvolvida pela Skillmio, com foco no reforço contínuo da segurança digital.
 
 ## Como usar a blocked_domains.txt?
 
