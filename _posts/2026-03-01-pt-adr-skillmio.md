@@ -65,7 +65,7 @@ adr bookstack
 ```
 
 > ADR detecta o sistema, baixa as configurações corretas, instala o serviço e aplica padrões de segurança automaticamente.
-
+{:.prompt-info}
 
 
 ### **Listar e Procurar Funções**
