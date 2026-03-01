@@ -59,8 +59,10 @@ Após a instalação, o Skillmio DNS ficará ativo no dispositivo.
 6. Clique em **OK** e reinicie a conexão  
 
 ### Linux
-1. No Terminal do Linux
-2. Edita `vi /etc/resolv.conf`
-3. nameserver 102.213.34.98
-4. nameserver 196.61.76.76
+1. Abra o Linux **Terminal**
+2. Edita o ficheiro: `vi /etc/resolv.conf`
+3. Adicione:
+   `nameserver 102.213.34.98`
+4. Adicione:
+   `nameserver 196.61.76.76`
  
