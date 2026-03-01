@@ -9,6 +9,9 @@ description: Learn how to use CoSec’s blocked_domains and banned_ips lists to 
 image: /assets/img/SkillmioADR-visual.png
 ---
 
+
+github repo: https://github.com/skillmio/adr
+
 ## **Implementando Serviços no AlmaLinux 10 Sem Complicação**
 
 ### **Introdução**
