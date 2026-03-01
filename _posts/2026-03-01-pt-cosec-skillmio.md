@@ -6,7 +6,7 @@ tags: [tutorial-pt, cosec, blocked_domains, banned_ips]     # TAG names should a
 author: msaraiva
 pin: true
 description: Aprenda a utilizar as listas blocked_domains e banned_ips da CoSec para reforçar a proteção da sua infraestrutura de TI.
-image: /assets/img/SkillmioCoSec-visual.png
+image: /assets/img/SkillmioCoSec-visual.jpeg
 ---
 
 github repo: https://github.com/skillmio/CoSec
