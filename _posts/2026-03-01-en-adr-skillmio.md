@@ -5,7 +5,7 @@ categories: [Tutorial-en]
 tags: [tutorial-en, adr, zabbix, bookstack, wordpress]
 author: msaraiva
 description: Learn how to deploy services like WordPress, GLPI, and BookStack on AlmaLinux 10 quickly and safely using ADR (Auto-Deploy Role)
-image: /assets/img/SkillmioADR-visual.png
+image: /assets/img/SkillmioADR-visual.jpeg
 ---
 
 GitHub repo: https://github.com/skillmio/adr
