@@ -49,19 +49,19 @@ Após a configuração, todas as consultas externas passarão pelos servidores d
 
 ### Configuração no BIND (Linux)
 
-Editar ficheiro de configuração
+#### 1. Editar ficheiro de configuração
 
-#### Debian / Ubuntu
+Debian / Ubuntu
 ```bash
 sudo vi /etc/bind/named.conf.options
 ````
-#### CentOS / RHEL
+CentOS / RHEL
 
 ```bash
 sudo vi /etc/named.conf
 ```
 
-#### Adicionar ou ajustar o bloco `options`:
+#### 2. Adicionar ou ajustar o bloco `options`:
 
 ```bash
 options {
@@ -76,32 +76,165 @@ options {
 };
 ```
 
-#### Validar configuração
+#### 3. Validar configuração
 
 ```bash
 sudo named-checkconf
 ```
 
-#### Reiniciar serviço
+#### 4. Reiniciar serviço
 
-##### Debian / Ubuntu
+Debian / Ubuntu
 
 ```bash
 sudo systemctl restart bind9
 ```
 
-##### CentOS / RHEL
+CentOS / RHEL
 
 ```bash
 sudo systemctl restart named
 ```
+
 Após reiniciar o serviço, o seu servidor DNS passará a utilizar a filtragem baseada na lista `blocked_domains.txt` através dos servidores Skillmio.
 
 ## Como usar a banned_ips.txt?
 
 A lista `banned_ips.txt` pode ser integrada diretamente na firewall da sua infraestrutura para bloquear endereços IP maliciosos ao nível da rede.
 
-Abaixo seguem exemplos para **fail2ban** e **firewalld**.
+Abaixo seguem exemplos para **fail2ban** .
+
+### Fail2ban
+
+#### 1. Instalar o fail2ban 
+
+Ubuntu / Debian
+
+```bash
+sudo apt update
+sudo apt install fail2ban -y
+````
+
+AlmaLinux / Rocky
+
+```bash
+sudo dnf install epel-release -y
+sudo dnf install fail2ban -y
+```
+
+#### 2. Criar uma Jail `banned` (usa Heredoc EOF)
+
+```bash
+sudo tee /etc/fail2ban/jail.d/banned-ips.conf > /dev/null << 'EOF'
+[banned]
+enabled = true
+port    = all
+filter  = sshd
+banaction = iptables-allports
+logpath = /var/log/secure
+EOF
+```
+
+**Como funciona**
+
+* Os IPs adicionados via `fail2ban-client set banned banip <IP>` são incluídos no ipset
+* O firewalld bloqueia automaticamente esses IPs em todas as portas
+
+Sem necessidade de logs, filtro ou tempo de banimento. Os IPs permanecem bloqueados até serem removidos manualmente.
+
+#### 3. Ativar e iniciar o Fail2Ban
+
+Ativar Fail2Ban:
+
+```bash
+sudo systemctl enable --now fail2ban
+```
+
+Ver estado do serviço Fail2Ban:
+
+```bash
+sudo systemctl status fail2ban
+```
+
+Outros comandos úteis:
+
+Ver estado do Fail2Ban e jails:
+
+```bash
+sudo fail2ban-client status
+```
+
+Reiniciar o serviço Fail2Ban:
+
+```bash
+sudo systemctl restart fail2ban
+```
 
 
+#### 4. Baixar a Lista de IPs da Skillmio e aplicar bloqueio
 
+```bash
+curl -s https://raw.githubusercontent.com/skillmio/CoSec/main/banned_ips.txt \
+| grep -vE '^\s*#|^\s*$' \
+| xargs -I{} sudo fail2ban-client set banned banip {}
+```
+
+Este ficheiro contém os IPs a bloquear automaticamente.
+
+
+#### 5. Verificar o estado da Jail `banned`
+
+```bash
+sudo fail2ban-client status banned
+```
+
+Deve mostrar o número de IPs atualmente bloqueados.
+
+
+#### 6. Atualizar automaticamente os IPs bloqueados (opcional mas recomendado)
+
+Criar um script de atualização:
+
+```bash
+sudo tee /usr/local/bin/update-skillmio-bannedip.sh > /dev/null << 'EOF'
+#!/bin/bash
+
+curl -s https://raw.githubusercontent.com/skillmio/CoSec/main/banned_ips.txt \
+| grep -vE '^\s*#|^\s*$' \
+| xargs -I{} sudo fail2ban-client set banned banip {}
+EOF
+```
+
+Tornar o script executável:
+
+```bash
+sudo chmod +x /usr/local/bin/update-skillmio-bannedip.sh
+```
+
+Adicionar uma tarefa cron:
+
+```bash
+sudo bash -c 'echo "0 * * * * /usr/local/bin/update-skillmio-bannedip.sh" >> /etc/crontab'
+```
+
+Isso verifica atualizações **a cada hora**.
+
+Depois de criar o script e torná-lo executável, pode executá-lo manualmente assim:
+
+```bash
+update-skillmio-bannedip.sh
+```
+
+Após a execução, verifique os IPs atualmente bloqueados:
+
+```bash
+sudo fail2ban-client status banned
+```
+
+#### 7. Resumo
+
+Com esta configuração:
+
+* O Fail2Ban está instalado e protege o seu servidor
+* A lista de IPs bloqueados da Skillmio bloqueia ativamente IPs maliciosos
+* É possível atualizar automaticamente a blacklist
