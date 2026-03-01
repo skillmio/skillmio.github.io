@@ -3,7 +3,7 @@ title: Deploying Services on AlmaLinux 10 Made Easy
 date: 2026-03-01 05:05:00 +0100
 categories: [Tutorial-en]
 tags: [tutorial-en, adr, zabbix, bookstack, wordpress]
-author: msaraiva
+author: A1
 description: Learn how to deploy services like WordPress, GLPI, and BookStack on AlmaLinux 10 quickly and safely using ADR (Auto-Deploy Role)
 image: /assets/img/SkillmioADR-visual.jpeg
 ---
