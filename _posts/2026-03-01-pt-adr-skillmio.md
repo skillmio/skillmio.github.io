@@ -1,20 +1,19 @@
 ---
-title: How to Use CoSec Lists to Strengthen IT Security
+title: Implementando Serviços no AlmaLinux 10 Sem Complicação
 date: 2026-03-01 05:05:00 +0100
 categories: [Tutorial-pt]
 tags: [tutorial-pt, adr, zabbix, bookstack]     # TAG names should always be lowercase
 author: msaraiva
 pin: true
-description: Learn how to use CoSec’s blocked_domains and banned_ips lists to strengthen the protection of your IT infrastructure.
+description: Aprenda a implementar serviços como WordPress, GLPI e BookStack no AlmaLinux 10 de forma rápida e segura usando ADR (Auto-Deploy Role)
 image: /assets/img/SkillmioADR-visual.png
 ---
 
 
 github repo: https://github.com/skillmio/adr
 
-## **Implementando Serviços no AlmaLinux 10 Sem Complicação**
 
-### **Introdução**
+## **Introdução**
 
 Gerenciar servidores Linux pode ser trabalhoso, especialmente quando se precisa instalar e configurar serviços como WordPress, GLPI ou BookStack. Com **ADR (Auto-Deploy Role)**, você pode implementar funções completas em **um único comando**, de forma rápida e consistente.
 
