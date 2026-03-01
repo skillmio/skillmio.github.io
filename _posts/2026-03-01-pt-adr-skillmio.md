@@ -6,7 +6,7 @@ tags: [tutorial-pt, adr, zabbix, bookstack, wordpress]     # TAG names should al
 author: msaraiva
 pin: true
 description: Aprenda a implementar serviços como WordPress, GLPI e BookStack no AlmaLinux 10 de forma rápida e segura usando ADR (Auto-Deploy Role)
-image: /assets/img/SkillmioADR-visual.png
+image: /assets/img/SkillmioADR-visual.jpeg
 ---
 
 
