@@ -57,3 +57,10 @@ Após a instalação, o Skillmio DNS ficará ativo no dispositivo.
 4. Selecione **Protocolo Internet Versão 4 (TCP/IPv4)** > **Propriedades**
 5. Marque **Usar os seguintes endereços de servidor DNS** e introduza: `102.213.34.98` e `196.61.76.76`
 6. Clique em **OK** e reinicie a conexão  
+
+### Linux
+1. No Terminal do Linux
+2. Edita `vi /etc/resolv.conf`
+3. nameserver 102.213.34.98
+4. nameserver 196.61.76.76
+ 
