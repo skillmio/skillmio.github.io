@@ -3,7 +3,7 @@ title: How to Use CoSec Lists to Strengthen IT Security
 date: 2026-03-01 05:05:00 +0100
 categories: [Tutorial-en]
 tags: [tutorial-en, cosec, blocked_domains, banned_ips]     # TAG names should always be lowercase
-author: msaraiva
+author: A1
 description: Learn how to use CoSec’s blocked_domains and banned_ips lists to strengthen the protection of your IT infrastructure.
 image: /assets/img/SkillmioCoSec-visual.jpeg
 ---
