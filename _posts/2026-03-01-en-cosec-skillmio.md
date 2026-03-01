@@ -9,6 +9,8 @@ description: Learn how to use CoSec’s blocked_domains and banned_ips lists to 
 image: /assets/img/SkillmioCoSec-visual.png
 ---
 
+github repo: https://github.com/skillmio/CoSec
+
 
 ## What is a Blocklist?
 
