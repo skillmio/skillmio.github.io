@@ -40,8 +40,8 @@ Verifique a instalação e a ajuda do ADR:
 adr -h
 ```
 
-> ⚠️ **Dica:** Execute ADR em uma instalação nova e faça snapshot do servidor antes de aplicar roles.
-
+> **Dica:** Execute ADR em uma instalação nova e faça snapshot do servidor antes de aplicar roles.
+{:.prompt-tip}
 
 
 ### **Como Implementar Roles/Funções**
