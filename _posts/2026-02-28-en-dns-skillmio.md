@@ -55,3 +55,10 @@ After installation, Skillmio DNS will be active on the device.
 4. Select **Internet Protocol Version 4 (TCP/IPv4)** > **Properties**
 5. Select **Use the following DNS server addresses** and enter: `102.213.34.98` and `196.61.76.76`
 6. Click **OK** and restart the connection
+
+1. Open the Linux **Terminal**
+2. Edit the file: `vi /etc/resolv.conf`
+3. Add:
+   `nameserver 102.213.34.98`
+4. Add:
+   `nameserver 196.61.76.76`
