@@ -1,6 +1,6 @@
 ---
 title: Guia de consulta rápida do Exchange On-Premises
-date: 2026-03-03 13:05:00 +0100
+date: 2026-03-03 20:05:00 +0100
 categories: [Tutorial-pt]
 tags: [tutorial-pt, exchange]     # TAG names should always be lowercase
 author: A1
