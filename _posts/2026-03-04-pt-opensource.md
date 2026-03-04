@@ -20,7 +20,7 @@ description: Lista de alternativas open source a software comercial, com funcion
 | Centralizador de Logs                | **Graylog**                            | Splunk                             |
 | Sistema de Ticketing                 | **GLPI**                               | Servicedesk Plus                   |
 | SIEM                                 | **Wazuh**                              | SIEM proprietário (Splunk, QRadar) |
-| IAM                                  | **Samba** + **Keycloak**               | Active Directory                   |
+| IAM                                  | **Authentik**                          | Active Directory                   |
 | A.I Assistant                        | **Ollama** + **Open WebUI**            | ChatGPT                            |
 | Automação                            | **n8n**                                | Zapier                             |
 | Suite de Produtividade e Colaboração | Stack Modular Open Source              | Microsoft 365 / Google Workspace   |
