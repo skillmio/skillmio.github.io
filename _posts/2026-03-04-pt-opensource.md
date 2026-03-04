@@ -11,15 +11,13 @@ description: Lista de alternativas open source a software comercial, com funcion
 
 
 
-
-
-
 | Necessidade                          | Ferramentas                            | Alternativa a                      |
 | ------------------------------------ | -------------------------------------- | ---------------------------------- |
 | Virtualização                        | **Proxmox Virtual Environment**        | VMware                             |
 | Backup                               | **Proxmox Backup Server**              | Veeam                              |
 | Firewall                             | **OPNsense**                           | Fortinet                           |
 | Observabilidade                      | **Zabbix**                             | OpManager                          |
+| Centralizador de Logs                | **Graylog**                            | Splunk                             |
 | SIEM                                 | **Wazuh**                              | SIEM proprietário (Splunk, QRadar) |
 | IAM                                  | **Samba** + **Keycloak**               | Active Directory                   |
 | A.I Assistant                        | **Ollama** + **Open WebUI**            | ChatGPT                            |
