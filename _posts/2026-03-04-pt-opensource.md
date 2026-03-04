@@ -18,6 +18,7 @@ description: Lista de alternativas open source a software comercial, com funcion
 | Firewall                             | **OPNsense**                           | Fortinet                           |
 | Observabilidade                      | **Zabbix**                             | OpManager                          |
 | Centralizador de Logs                | **Graylog**                            | Splunk                             |
+| Sistema de Ticketing                 | **GLPI**                               | Servicedesk Plus                   |
 | SIEM                                 | **Wazuh**                              | SIEM proprietário (Splunk, QRadar) |
 | IAM                                  | **Samba** + **Keycloak**               | Active Directory                   |
 | A.I Assistant                        | **Ollama** + **Open WebUI**            | ChatGPT                            |
