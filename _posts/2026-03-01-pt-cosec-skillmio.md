@@ -22,6 +22,11 @@ Uma lista de bloqueio (blocklist) é um conjunto de domínios ou endereços IP i
 
 Estas listas são mantidas no âmbito da iniciativa **CoSec**, desenvolvida pela Skillmio, com foco no reforço contínuo da segurança digital.
 
+
+# Dominios Bloqueados
+**Gráfico de Domínios Bloqueados ao Longo do Tempo**
+![Gráfico de Domínios Bloqueados ao Longo do Tempo](https://raw.githubusercontent.com/skillmio/CoSec/master/files/blocked_domains_graph.png)
+
 ## Como usar a blocked_domains.txt?
 
 ###  Método 1 – Upstream (Recomendado)
@@ -99,6 +104,12 @@ sudo systemctl restart named
 ```
 
 Após reiniciar o serviço, o seu servidor DNS passará a utilizar a filtragem baseada na lista `blocked_domains.txt` através dos servidores Skillmio.
+
+# IPs Banidos 
+
+**Gráfico de IPs Banidos ao Longo do Tempo**
+
+![Banned IP's Graph](https://raw.githubusercontent.com/skillmio/CoSec/master/files/banned_ips_graph.png)
 
 ## Como usar a banned_ips.txt?
 
