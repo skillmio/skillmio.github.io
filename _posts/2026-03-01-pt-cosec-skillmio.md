@@ -24,8 +24,9 @@ Estas listas são mantidas no âmbito da iniciativa **CoSec**, desenvolvida pela
 
 
 # Dominios Bloqueados
-**Gráfico de Domínios Bloqueados ao Longo do Tempo**
+
 ![Gráfico de Domínios Bloqueados ao Longo do Tempo](https://raw.githubusercontent.com/skillmio/CoSec/master/files/blocked_domains_graph.png)
+_Gráfico de Domínios Bloqueados ao Longo do Tempo_
 
 ## Como usar a blocked_domains.txt?
 
@@ -107,9 +108,8 @@ Após reiniciar o serviço, o seu servidor DNS passará a utilizar a filtragem b
 
 # IPs Banidos 
 
-**Gráfico de IPs Banidos ao Longo do Tempo**
-
 ![Banned IP's Graph](https://raw.githubusercontent.com/skillmio/CoSec/master/files/banned_ips_graph.png)
+_Gráfico de IPs Banidos ao Longo do Tempo_
 
 ## Como usar a banned_ips.txt?
 
