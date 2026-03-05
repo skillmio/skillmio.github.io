@@ -34,7 +34,8 @@ Get-ExchangeServer | Select Name,Edition,AdminDisplayVersion
 >* foi rejeitado
 >* ficou preso na fila
 {:.prompt-tip}
- 
+
+
 ```powershell
 Get-MessageTrackingLog -Start (Get-Date).AddHours(-1)
 ```
