@@ -22,8 +22,12 @@ A blocklist is a collection of domains or IP addresses identified as malicious, 
 
 These lists are maintained as part of the **CoSec** initiative, developed by Skillmio, with a focus on continuously strengthening digital security.
 
+# Blocked Domains
 
-# How to Use blocked_domains.txt?
+![Blocked Domains Trend Over Time](https://raw.githubusercontent.com/skillmio/CoSec/master/files/blocked_domains_graph.png)
+_Blocked Domains Trend Over Time Graph_
+
+## How to Use blocked_domains.txt?
 
 ## Method 1 – Upstream (Recommended)
 
@@ -105,9 +109,12 @@ sudo systemctl restart named
 
 After restarting the service, your DNS server will begin using filtering based on the `blocked_domains.txt` list through Skillmio servers.
 
+# Banned IPs
 
+![Banned IP's Graph](https://raw.githubusercontent.com/skillmio/CoSec/master/files/banned_ips_graph.png)
+_Banned IPs Trend Over Time Graph_
 
-# How to Use banned_ips.txt?
+## How to Use banned_ips.txt?
 
 The `banned_ips.txt` list can be directly integrated into your infrastructure firewall to block malicious IP addresses at the network level.
 
