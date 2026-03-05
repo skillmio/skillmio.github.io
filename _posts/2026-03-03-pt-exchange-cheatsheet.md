@@ -55,3 +55,53 @@ Este comando lê os **Message Tracking Logs**, que registam eventos como:
 * `.AddHours(-1)` → subtrai **1 hora**.
   
 Ou seja, mostra **o caminho que um email percorreu dentro do Exchange**.
+
+### Procurar um email por endereço:
+```powershell
+Get-MessageTrackingLog -Recipients user@dominio.com
+```
+
+### Procurar um email por assunto:
+```powershell
+Get-MessageTrackingLog -MessageSubject "teste"
+```
+
+### Procurar um email por assunto:
+```powershell
+Get-MessageTrackingLog -MessageSubject "teste"
+```
+
+### Ver fila 
+```powershell
+Get-Queue
+```
+
+## Ver mensagens na fila
+
+```powersshell
+Get-Message -Queue "NOME_DA_FILA"
+```
+
+## Reprocessar fila
+
+```powershell
+Retry-Queue "NOME_DA_FILA"
+```
+
+
+### Procurar por intervalo de horas:
+Exemplo: entre 10h e 12h
+```powershell
+Get-MessageTrackingLog -Start "02/15/2026 10:00:00" -End "02/15/2026 12:00:00"
+```
+
+### Procurar por data + destinatário
+```powershell
+Get-MessageTrackingLog -Recipients user@empresa.com -Start "01/15/2026 10:00:00" -End "01/15/2026 12:00:00"
+```
+
+## Ver cópias das bases
+
+```powershell
+Get-MailboxDatabaseCopyStatus *
+```
