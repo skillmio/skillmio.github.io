@@ -11,7 +11,7 @@ description: Lista de alternativas open source a software comercial, com funcion
 
 
 
-| Necessidade                           | Ferramentas                            | Alternativa a                      |
+| Categoria                             | Ferramentas                            | Alternativa a                      |
 | ------------------------------------- | -------------------------------------- | ---------------------------------- |
 | Virtualização                         | **Proxmox Virtual Environment**        | VMware                             |
 | Backup                                | **Proxmox Backup Server**              | Veeam                              |
