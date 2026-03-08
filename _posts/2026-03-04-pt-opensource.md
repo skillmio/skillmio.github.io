@@ -23,11 +23,11 @@ description: Lista de alternativas open source a software comercial, com funcion
 | IAM                                  | **Authentik**                          | Active Directory                   |
 | A.I Assistant                        | **Ollama** + **Open WebUI**            | ChatGPT                            |
 | Automação                            | **n8n**                                | Zapier                             |
-| Suite de Produtividade e Colaboração | Stack Modular Open Source              | Microsoft 365 / Google Workspace   |
-| * Drive corporativo                  | **Seafile**                            | OneDrive / Google Drive            |
-| * Correio e Calendário               | **Mailcow** + **SOGo**                 | Exchange / Gmail                   |
-| * Chat Corporativo                   | **Mattermost** ou **Rocket.Chat**      | Teams / Slack                      |
-| * Video Conferência                  | **Jitsi Meet** ou **BigBlueButton**    | Teams / Zoom / Google Meet         |
+| Suite de Produtividade e Colaboração | **Nextcloud Hub**                      | Microsoft 365 / Google Workspace   |
+| * Drive corporativo                  | **Nextcloud Files**                    | OneDrive / Google Drive            |
+| * Correio, Contactos e Calendário    | **Nextcloud Groupware**                | Exchange / Gmail                   |
+| * Chat, Chamadas e Video Conferência | **Nextcloud Talk**                     | Teams / Slack                      |
+| * Office (Online)                    | **Nextcloud office**                   | Office 365 / Google Docs           |
 | * Office (Desktop)                   | **LibreOffice**                        | Microsoft Office                   |
-| * Office (Online)                    | **OnlyOffice** ou **Collabora Online** | Office 365 / Google Docs           |
 | * Gestão de Projecto                 | **OpenProject**                        | MS Project / Monday.com            |
+
