@@ -16,7 +16,7 @@ timezone:
 
 title: Skillmio # the main title
 
-tagline: Formação competitiva # it will display as the subtitle
+tagline: Vantagem competitiva # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
