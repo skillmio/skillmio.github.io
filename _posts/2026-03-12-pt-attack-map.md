@@ -11,7 +11,7 @@ image:
 
 ## Mapas de Ataques Cibernéticos em tempo real
 
-**Mapas de Ataques Cibernéticos em tempo real** são **visualizações interativas que mostram atividades de ataques informáticos acontecendo no mundo naquele momento**. Eles usam dados recolhidos por empresas de cibersegurança para ilustrar **de onde vêm os ataques, para onde vão e que tipo de ameaças estão ocorrendo**. 🌍💻
+**Mapas de Ataques Cibernéticos em tempo real** são **visualizações interativas que mostram atividades de ataques informáticos acontecendo no mundo naquele momento**. Eles usam dados recolhidos por empresas de cibersegurança para ilustrar **de onde vêm os ataques, para onde vão e que tipo de ameaças estão ocorrendo**.
 
 ### Como funcionam
 
