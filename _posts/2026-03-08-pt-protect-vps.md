@@ -1,8 +1,8 @@
 ---
 title: Como proteger o seu VPS usando banned_ips.txt (CoSec)
 date: 2026-03-08 05:05:00 +0100
-categories: [Tutorial-pt]
-tags: [tutorial-pt, vps, cosec]     # TAG names should always be lowercase
+categories: [Tutorials-pt]
+tags: [tutorials-pt, vps, cosec]     # TAG names should always be lowercase
 author: A1
 description: Este tutorial explica como proteger o seu VPS usando a lista de bloqueio de IPs do projecto CoSec
 ---
