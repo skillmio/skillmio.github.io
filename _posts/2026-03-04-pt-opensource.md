@@ -1,8 +1,8 @@
 ---
 title: Lista de alternativas open source a software comercial
 date: 2026-03-04 02:05:00 +0100
-categories: [Tutorial-pt]
-tags: [tutorial-pt, adr, opensource]     # TAG names should always be lowercase
+categories: [Tutorials-pt]
+tags: [tutorials-pt, adr, opensource]     # TAG names should always be lowercase
 author: A1
 description: Lista de alternativas open source a software comercial, com funcionalidades equivalentes.
 #image: 
