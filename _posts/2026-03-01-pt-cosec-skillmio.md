@@ -1,8 +1,8 @@
 ---
 title: Como usar as listas CoSec para reforçar a segurança de TI
 date: 2026-03-01 05:05:00 +0100
-categories: [Tutorial-pt]
-tags: [tutorial-pt, cosec, blocked_domains, banned_ips]     # TAG names should always be lowercase
+categories: [Tutorials-pt]
+tags: [tutorials-pt, cosec, blocked_domains, banned_ips]     # TAG names should always be lowercase
 author: A1
 pin: true
 description: Aprenda a utilizar as listas blocked_domains e banned_ips da CoSec para reforçar a proteção da sua infraestrutura de TI.
