@@ -1,8 +1,8 @@
 ---
 title: Guia de consulta rápida - Proxmox
 date: 2026-03-03 13:05:00 +0100
-categories: [Tutorial-pt]
-tags: [tutorial-pt, proxmox]     # TAG names should always be lowercase
+categories: [Tutorials-pt]
+tags: [tutorials-pt, proxmox]     # TAG names should always be lowercase
 author: A1
 description: Guia de consulta rápida - proxmox
 ---
