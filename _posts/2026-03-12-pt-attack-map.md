@@ -1,5 +1,5 @@
 ---
-title: Mapas de Ataques Cibernéticos em tempo real
+title: Mapas de ataques cibernéticos em tempo real
 date: 2026-03-12 05:05:00 +0100
 categories: [Tutorials-pt]
 tags: [tutorials-pt, attack-map]     # TAG names should always be lowercase
