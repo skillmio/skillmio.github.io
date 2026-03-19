@@ -1,8 +1,8 @@
 ---
 title: Implementando Serviços no AlmaLinux 10 Sem Complicação
 date: 2026-03-01 05:05:00 +0100
-categories: [Tutorial-pt]
-tags: [tutorial-pt, adr, zabbix, bookstack, wordpress]     # TAG names should always be lowercase
+categories: [Tutorials-pt]
+tags: [tutorials-pt, adr, zabbix, bookstack, wordpress]     # TAG names should always be lowercase
 author: A1
 pin: true
 description: Aprenda a implementar serviços como WordPress, GLPI e BookStack no AlmaLinux 10 de forma rápida e segura usando ADR (Auto-Deploy Role)
