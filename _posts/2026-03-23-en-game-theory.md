@@ -25,4 +25,12 @@ image:
 
 [Game Theory #8: Communist Specter](https://www.youtube.com/watch?v=axqDLhWs93Q)
 
+[Game Theory #9: The US-Iran War](https://www.youtube.com/watch?v=jIS2eB-rGv0)
+
+[Game Theory #10: The Law of Asymmetry](https://www.youtube.com/watch?v=t5oisJiorsU)
+
+[Game Theory #11: The Law of Escalation](https://www.youtube.com/watch?v=fz-Dan7NRss)
+
+[Game Theory #12: The Law of Eschatological Convergence](https://www.youtube.com/watch?v=spg58Glfz68)
+
 
