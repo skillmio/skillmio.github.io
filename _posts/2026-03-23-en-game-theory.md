@@ -8,7 +8,7 @@ description: A collection of youtube videos on Game Theory
 image: 
 ---
 
-## Youtube Videos 
+## Game Theory Classes by Professor Jiang Xueqin
 [Game Theory #1: The Dating Game](https://www.youtube.com/watch?v=hE4l9WyLF3U)
 
 [Game Theory #2: Why Schools Suck ](https://www.youtube.com/watch?v=kS-muAuq62E)
