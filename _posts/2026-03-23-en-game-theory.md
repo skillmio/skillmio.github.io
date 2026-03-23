@@ -33,4 +33,10 @@ image:
 
 [Game Theory #12: The Law of Eschatological Convergence](https://www.youtube.com/watch?v=spg58Glfz68)
 
+[Game Theory #13: Epstein's World](https://www.youtube.com/watch?v=aQSDSqdlFxk&t=425s)
 
+[Game Theory #14: The Law of Proximity](https://www.youtube.com/watch?v=nOQqGy4boBY)
+
+## Game Theory 101 Full Course by William Spaniel
+
+[Game Theory 101 Full Course](https://www.youtube.com/watch?v=NSVmOC_5zrE&list=PLKI1h_nAkaQoDzI4xDIXzx6U2ergFmedo)
