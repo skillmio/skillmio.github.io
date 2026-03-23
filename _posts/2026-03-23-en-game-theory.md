@@ -21,3 +21,8 @@ image:
 
 [Game Theory #6: The World's Bank](https://www.youtube.com/watch?v=CbamEcNuDXo)
 
+[Game Theory #7: America's Game](https://www.youtube.com/watch?v=ijnkCt1QK6k)
+
+[Game Theory #8: Communist Specter](https://www.youtube.com/watch?v=axqDLhWs93Q)
+
+
