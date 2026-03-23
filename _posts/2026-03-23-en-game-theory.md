@@ -1,11 +1,11 @@
 ---
 title: Game Theory Classes
-date: 2026-03-01 05:05:00 +0100
+date: 2026-03-23 05:05:00 +0100
 categories: [Tutorials-en]
 tags: [tutorials-en, game_theory]
 author: A1
 description: A collection of youtube videos and other resources on Game Theory
-image: 
+# image: 
 ---
 
 ## Game Theory Classes by Professor Jiang Xueqin
