@@ -15,7 +15,9 @@ description: Lista de alternativas open source a software comercial, com funcion
 ref:
 
 [Europe LAUNCHES Microsoft Killer - Free Euro-Office Goes Live, US Software Control ENDS](https://www.youtube.com/watch?v=DrFc0LW0nL0)
+
 [USA Loses Payment System Leverage In Europe - 'Pay by Bank' Button Kills Visa/Mastercard, 72% Vanish](https://www.youtube.com/watch?v=ka47pokoBu0)
+
 []()
 []()
 []()
